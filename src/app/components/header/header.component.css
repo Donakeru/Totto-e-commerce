@@ -1,0 +1,49 @@
+.header_container {
+    width: 100%;
+    border-bottom: 3px solid black;
+    ;
+}
+
+.header_container_short_advice {
+    width: 100%;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    background-color: #6dc9c8;
+}
+
+.header_container_short_advice_contact {
+    margin-right: 2%;
+}
+
+.header_container_short_advice_contact_link {
+    margin: 0px 5px;
+    font-size: 13px;
+    font-family: 'gotham-medium', sans-serif;
+    text-decoration: none;
+    color: inherit;
+}
+
+.header_container_menu_content {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0px 2%;
+    height: 95px;
+}
+
+.header_container_menu_logo {
+    width: 10%;
+    min-width: 147px;
+}
+
+.header_container_menu_searcher {
+    width: 40%;
+}
+
+@media screen and (min-width: 480px) {
+    body {
+      background-color: lightgreen;
+    }
+  }
