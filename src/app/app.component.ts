@@ -8,6 +8,8 @@ import { HeaderComponent } from './components/header/header.component';
 import { SearcherComponent } from './components/searcher/searcher.component';
 import { UserMenuComponent } from './components/user-menu/user-menu.component';
 import { HomeComponent } from './pages/home/home.component';
+import { ProductCardComponent } from './components/product-card/product-card.component';
+import { CatalogueComponent } from './components/catalogue/catalogue.component';
 
 @Component({
   selector: 'app-root',
@@ -18,7 +20,9 @@ import { HomeComponent } from './pages/home/home.component';
     HeaderComponent,
     SearcherComponent,
     UserMenuComponent,
-    HomeComponent
+    HomeComponent,
+    ProductCardComponent,
+    CatalogueComponent
   ],
   templateUrl: './app.component.html',
   styleUrls: ['./app.component.css']
